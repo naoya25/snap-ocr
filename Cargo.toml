@@ -6,10 +6,11 @@ edition = "2024"
 [dependencies]
 anyhow = "1.0.103"
 arboard = "3.6.1"
+base64 = "0.22.1"
 dirs = "6.0.0"
 dotenvy = "0.15.7"
 global-hotkey = "0.8.0"
-reqwest = { version = "0.13.4", default-features = false, features = ["blocking", "multipart", "query", "rustls"] }
+reqwest = { version = "0.13.4", default-features = false, features = ["blocking", "json", "query", "rustls"] }
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0.150"
 tao = "0.35.3"
